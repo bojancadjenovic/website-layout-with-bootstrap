@@ -1,0 +1,297 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;  
+}
+.header {
+    margin-bottom: 30px;
+    padding: 0;
+}
+
+.logo {
+    margin-bottom: 0;
+    margin-top: 24px;
+}
+.link {
+    margin-top: 20px;
+}
+
+.link a {
+    margin-right: 20px;
+    color: black;
+}
+.link a:hover {
+    color: black;
+}
+.hero-section {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+}
+.hero {
+    width: 100%;
+}
+.hero-text {
+    position: absolute;
+    top: 78px;
+    left: 65px;
+    background-color: #53b867;
+}
+.hero-text p {
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 10px 10px 10px;
+    color: white;
+}
+.background {
+    background-color: #f2f2f2;
+}
+
+.icon-section {
+    padding-top: 70px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 40px;
+}
+
+.PQFE { 
+    text-align: center;
+}
+
+.icon {
+    padding-bottom: 20px;
+}
+
+.PQFE h2 {
+    font-size: 24px;
+    font-weight: 700;
+    ;
+}
+
+.underline {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    padding-left: 0;
+    border-bottom: 1px solid #9e9e9e; 
+}
+
+.underline h5 {
+    color: #525252;
+}
+
+h5 {
+    color: black;
+    font-weight: bold;
+}
+
+.work {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.work img {
+    padding-bottom: 10px;
+}
+
+.blog {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 50px;
+}
+
+.blog img {
+    padding-bottom: 30px;
+}
+
+
+.links {
+    background-color: #262626; 
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.links h5 {
+    color: white;
+    padding-top: 50px;
+}
+
+.description {
+    color: #525252;
+    padding: 10px 20px 60px 0;
+}
+
+.list h5 {
+    padding-bottom: 15px;
+}
+
+.first {
+    border-top: 1px solid #8c8c8c;
+}
+
+.list p {
+    border-bottom: 1px solid #8c8c8c;
+    color: #b0b0b0;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 6px;
+    padding-top: 6px;
+}
+
+.list-2 h5 {
+    padding-bottom: 15px;
+}
+
+.list-2 p {
+    border-bottom: 1px solid #8c8c8c;
+    color: #b0b0b0;
+    font-size: 14px;
+    margin: 0;
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.list {
+    margin-bottom: 100px;
+}
+
+.list-2 {
+    margin-bottom: 100px;
+}
+
+.footer {
+    background-color: #0d0d0d;
+}
+
+.footer p {
+    color: #8c8c8c;
+    text-align: center;
+    padding: 25px;
+}
+
+
+@media screen and (max-width: 767px) {
+        .wrapper {
+            width: 90%;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 300;
+        }
+
+        .menu {
+            position: relative;
+            top: 5px;
+            color: gray;
+            font-weight: 400;
+        }
+
+        .menu-img {
+            width: 25px;
+            height: 20px;
+            margin-right: 10px;
+        }
+
+        .menu strong {
+            font-size: 25px;
+        }
+
+        .hero-section {
+            position: relative;
+            padding-left: 0;
+            padding-right: 0;
+        }
+        
+        .hero-text {
+            position: absolute;
+            top: 15px;
+            left: 15px;
+            right: 15px;
+            background-color: #53b867;
+            text-align: center;
+            align-items: center;
+        }
+
+        .hero-text p {
+            font-size: 23px;
+            margin: 5px 5px 5px 5px;
+        }
+
+        .work {
+            margin-bottom: 90px;
+        }
+
+        .work h5 {
+            margin: 0;
+        }
+
+        .work p {
+            padding-bottom: 15px;
+        }
+
+        .picture {
+            width: 100%;
+        }
+
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+    .wrapper {
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    .heder {
+        margin-bottom: 20px;
+    }
+
+    .logo {
+        font-size: 30px;
+        font-weight: 300;
+    }
+    .menu {
+        position: relative;
+        top: 3px;
+        color: gray;
+        font-weight: 500;
+    }
+
+    .menu-img {
+        width: 20px;
+        height: 15px;
+        margin-right: 10px;
+    }
+
+    .menu strong {
+        font-size: 20px;
+    }
+
+    .hero-section {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    .hero {
+        width: 100%;
+    }
+    
+    .hero-text {
+        position: absolute;
+        top: 30px;
+        left: 134px;
+        background-color: #53b867;
+        letter-spacing: 1.5px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+    
+}
